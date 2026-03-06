@@ -7,8 +7,9 @@
         'views/purchase_order_views.xml',
     ],
     'installable': True,
-    'application': True,
+    # 'application': True,
     'license': 'LGPL-3',
 
 }
+
 
