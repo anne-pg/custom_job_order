@@ -1,0 +1,12 @@
+<odoo>
+    <record id="purchase_order_form_inherit_job" model="ir.ui.view">
+        <name>purchase.order.form.inherit.job</name>
+        <model>purchase.order</model>
+        <inherit_id ref="purchase.purchase_order_form"/>
+        <arch type="xml">
+            <field name="state" position="attributes">
+                <attribute name="statusbar_visible">draft,sent,purchase,job</attribute>
+            </field>
+        </arch>
+    </record>
+</odoo>
