@@ -1,5 +1,5 @@
 {
-    'name': 'Purchase Order Job State',
+    'name': 'Purchase Order Add Job State',
     'version': '1.0',
     'category': 'Inventory/Purchase',
     'summary': 'Adds Job state to Purchase Orders',
@@ -9,4 +9,5 @@
     ],
     'installable': True,
     'license': 'LGPL-3',
+
 }
